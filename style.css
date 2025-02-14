@@ -16,7 +16,7 @@ body, html {
 }
 
 #intro-video {
-    width:80%;
+    width:100%;
     object-fit: cover;
 }
 
