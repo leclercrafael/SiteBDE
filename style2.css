@@ -1,0 +1,24 @@
+/*Stylesheet des pages filles de l'index*/
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo_haut img{
+    width:45%;
+}
+
+.separator{
+    width:90%;
+    border: 1px solid;
+    color:blanchedalmond
+}
