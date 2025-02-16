@@ -4,6 +4,7 @@ body, html {
     padding: 0;
     overflow: hidden;
     background-color: black;
+    color:blanchedalmond
 }
 
 .box1{
@@ -21,4 +22,25 @@ body, html {
     width:90%;
     border: 1px solid;
     color:blanchedalmond
+}
+
+/*Section dédiée à la page hotline*/
+
+.liste_hotlines{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hotline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.but h2{
+    color:blanchedalmond;
+
 }
