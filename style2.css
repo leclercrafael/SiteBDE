@@ -38,9 +38,32 @@ body, html {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin-top: 30px;
 }
 
 .but h2{
     color:blanchedalmond;
 
+}
+
+
+/*Section pour la liste comme portail*/
+
+.conteneur_photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.unité{
+    width: 80px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px; 
+}
+
+.photo img{
+    width:100%;
 }
