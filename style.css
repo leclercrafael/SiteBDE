@@ -1,7 +1,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: black;
 }
 
@@ -58,4 +57,37 @@ body, html {
     text-decoration: none;
     color:blanchedalmond;
     
+}
+
+
+.accueil{
+    text-decoration: none;
+    color:blanchedalmond;
+    margin-bottom: 60px;
+}
+
+.titre{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: blanchedalmond;
+    font-style: italic;
+
+}
+
+.mot{
+    display: flexbox;
+    width:90%;
+}
+
+.mot1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: blanchedalmond;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#groupe{
+    width: 40%;
 }
