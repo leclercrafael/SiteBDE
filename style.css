@@ -95,3 +95,12 @@ body, html {
     width: 20%;
     text-align: center;
 }
+
+.media{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 80%;
+    height: auto;
+
+}
