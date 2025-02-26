@@ -36,14 +36,13 @@ body, html {
     display: flexbox;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .hotline{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    text-align: center;
     margin-top: 30px;
 }
 
@@ -52,6 +51,16 @@ body, html {
 
 }
 
+.break1{
+    flex-basis: 100%;
+    height: 0;
+    display: block;
+}
+
+.description{
+    flex: 1 1 100%;
+    text-align: center;
+}
 
 /*Section pour la liste comme portail*/
 
@@ -90,3 +99,4 @@ body, html {
     width: 80%;
     margin: 30px
 }
+

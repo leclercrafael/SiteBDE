@@ -90,3 +90,8 @@ body, html {
 #groupe{
     width: 40%;
 }
+
+#texte{
+    width: 20%;
+    text-align: center;
+}
