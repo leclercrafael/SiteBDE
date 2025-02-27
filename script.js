@@ -216,7 +216,7 @@ function gameInitialization(player1, player2) {
     
         const changePlayerTurn = () => {
             currentPlayer = currentPlayer === firstPlayer ? secondPlayer : firstPlayer;
-            const message = gameEnded ? 'Le jeu est fini' : `Au tour de ${currentPlayer.getName()}'`;
+            const message = gameEnded ? 'Le jeu est fini' : `Au tour de ${currentPlayer.getName()}`;
             displayController.changePlayerTurnTitle(message);
         }
     
