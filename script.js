@@ -201,7 +201,7 @@ function gameInitialization(player1, player2) {
             const winnerObj = gameBoard.checkWinner();
             if (winnerObj.hasSomeoneWon) {
                 const winnerPlayer = parseSymbolToPlayer(winnerObj.winnerSymbol, player1, player2);
-                const message = `${winnerPlayer.getName()} Wins!`;
+                const message = `${winnerPlayer.getName()} gagne !`;
                 displayController.showResultDialog(message);
                 res.gameEnded = true;
             }
@@ -216,7 +216,7 @@ function gameInitialization(player1, player2) {
     
         const changePlayerTurn = () => {
             currentPlayer = currentPlayer === firstPlayer ? secondPlayer : firstPlayer;
-            const message = gameEnded ? 'Game End' : `${currentPlayer.getName()}'s Turn`;
+            const message = gameEnded ? 'Le jeu est fini' : `Au tour de ${currentPlayer.getName()}'`;
             displayController.changePlayerTurnTitle(message);
         }
     
@@ -234,7 +234,7 @@ function gameInitialization(player1, player2) {
         const cleanGame = function() {
             displayController.cleanGameboard();
             gameBoard.clearArray();
-            displayController.changePlayerTurnTitle(`${currentPlayer.getName()}'s Turn`);
+            displayController.changePlayerTurnTitle(`Au tour de ${currentPlayer.getName()}`);
             gameEnded = false;
         }
     
