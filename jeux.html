@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mines'dieval</title>
+    <link rel="stylesheet" href="style_jeux.css">
+    <script src="./tic-tac-toe/game.js" defer></script>
+</head>
+<body>
+    <div class = "box1"> 
+        <div class="logo_haut"><a href=./index.html><img src="./couronne.png" alt="Logo Min'diéval"></a></div>
+    </div>
+    <hr class="separator">
+
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+
+    <main>
+        <p>Turn</p>
+        <div class="gameboard">
+            <div class="gamecell" data-position="0"></div>
+            <div class="gamecell" data-position="1"></div>
+            <div class="gamecell" data-position="2"></div>
+            <div class="gamecell" data-position="3"></div>
+            <div class="gamecell" data-position="4"></div>
+            <div class="gamecell" data-position="5"></div>
+            <div class="gamecell" data-position="6"></div>
+            <div class="gamecell" data-position="7"></div>
+            <div class="gamecell" data-position="8"></div>
+        </div>
+        <button type="button">Reset</button>
+    </main>
+
+    <dialog class="names-dialog">
+        <form>
+            <p class="title">C'est parti pour le morpion, jeu bien plus vieux que Pépin le Bref ! (daté de -1300 avant JC)</p>
+            <p  class="player-name">
+                <label for="name1">Nom du ops 1</label>
+                <input type="text" name="name1" id="name1" maxlength="15" required>
+            </p>
+            <p  class="player-name">
+                <label for="name2">Nom du ops 2</label>
+                <input type="text" name="name2" id="name2" maxlength="15" required>
+            </p>
+            <button>C'est parti</button>
+        </form>
+    </dialog>
+
+    <dialog class="result-dialog">
+        <h1>Player X triomphe!</h1>
+    </dialog>
+
+
+
+
+
+
+
+</body>
